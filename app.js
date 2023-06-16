@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
     res.render('home', { name: 'Akashdeep' });
 });
  
-const server = app.listen(4000, function () {
-    console.log('listening to port 4000')
+const server = app.listen(3000, function () {
+    console.log('listening to port 3000')
 });
 
